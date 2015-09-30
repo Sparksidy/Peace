@@ -94,6 +94,14 @@ public class Player : MonoBehaviour {
 	}
 
 
+	public void GiveHealth(int health,GameObject instigator){
+		FloatingText.Show (string.Format ("+{0}!",health), "PlayerGotHealthText", new FromWorldPointTextPositioner (Camera.main, transform.position, 2f, 60));
+		Health = Mathf.Min (Health + health, MaxHealth);
+
+
+	}
+
+
 	private void HandleInput(){
 		if (Input.GetKey (KeyCode.RightArrow)) {
 			normalizedHorizontalSpeed = 1;

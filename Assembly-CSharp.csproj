@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\GameHUD.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GiveDamageToPlayer.cs" />
+     <Compile Include="Assets\Scripts\GiveHealth.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\IFloatingTextPositioner.cs" />
      <Compile Include="Assets\Scripts\IPlayerRespawnListener.cs" />
