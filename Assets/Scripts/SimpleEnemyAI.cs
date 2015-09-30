@@ -7,6 +7,7 @@ public class SimpleEnemyAI : MonoBehaviour,ITakeDamage,IPlayerRespawnListener {
 	public float FireRate = 1;
 	public Projectile Projectile;
 	public GameObject DestroyEffect;
+	public AudioClip ShootSound;
 
 	private CharacterController2D1 _controller;
 	private Vector2 _direction;
@@ -35,6 +36,10 @@ public class SimpleEnemyAI : MonoBehaviour,ITakeDamage,IPlayerRespawnListener {
 		var projectile = (Projectile) Instantiate(Projectile,transform.position,transform.rotation);
 		projectile.Initialise(gameObject,_direction,_controller.Velocity);
 		_canFireIn = FireRate;
+
+
+		if (ShootSound != null)
+			AudioSource.PlayClipAtPoint (ShootSound, transform.position);
 	}
 
 

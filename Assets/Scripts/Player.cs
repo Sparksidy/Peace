@@ -16,6 +16,11 @@ public class Player : MonoBehaviour {
 	public Projectile Projectile;
 	public float FireRate;
 	public Transform ProjectileFireLocation;
+	public AudioClip PlayerHitSound;
+	public AudioClip PlayerShootSound;
+	public AudioClip PlayerHealthSound;
+
+
 
 
 
@@ -55,6 +60,12 @@ public class Player : MonoBehaviour {
 
 
 	} 
+	public void FinishLevel(){
+		enabled = false;
+		_controller.enabled = false;
+	
+	}
+
 
 	public void Kill(){
 
@@ -84,6 +95,8 @@ public class Player : MonoBehaviour {
 
 
 	public void TakeDamage(int damage){
+		AudioSource.PlayClipAtPoint (PlayerHitSound, transform.position);
+
 		FloatingText.Show (string.Format ("-{0}", damage), "PlayerTakeDamageText", new FromWorldPointTextPositioner (Camera.main, transform.position, 2f, 60));
 
 		Instantiate (OuchEffect, transform.position, transform.rotation);
@@ -95,6 +108,7 @@ public class Player : MonoBehaviour {
 
 
 	public void GiveHealth(int health,GameObject instigator){
+		AudioSource.PlayClipAtPoint (PlayerHealthSound, transform.position);
 		FloatingText.Show (string.Format ("+{0}!",health), "PlayerGotHealthText", new FromWorldPointTextPositioner (Camera.main, transform.position, 2f, 60));
 		Health = Mathf.Min (Health + health, MaxHealth);
 
@@ -122,7 +136,7 @@ public class Player : MonoBehaviour {
 			_controller.Jump();
 		}
 
-		if (Input.GetKey(KeyCode.AltGr))
+		if (Input.GetKey(KeyCode.LeftControl))
 			FireProjectile ();
 
 	}
@@ -139,6 +153,8 @@ public class Player : MonoBehaviour {
 		//projectile.transform.localScale = new Vector3 (_isFacingRight ? 1 : -1, 1, 1);
 
 		_canFireIn = FireRate;
+
+		AudioSource.PlayClipAtPoint (PlayerShootSound, transform.position);
 	}
 
 

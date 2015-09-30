@@ -31,6 +31,8 @@ public class LevelManager : MonoBehaviour {
 	
 
 	public void Awake(){
+		_savedPoints = GameManager.Instance.Points;
+
 		Instance = this;
 
 	}
@@ -94,16 +96,31 @@ public class LevelManager : MonoBehaviour {
 		_savedPoints = GameManager.Instance.Points;
 		_started = DateTime.UtcNow;
 
-
-
-
-
-
-
+	
 
 	}
 	public void KillPlayer(){
 		StartCoroutine (KillPlayerCo());
+	}
+
+	public void GoToNextLevel(string levelname){
+		StartCoroutine (GotoNextLevelCo(levelname));
+	}
+
+	private IEnumerator GotoNextLevelCo(string levelname){
+		Player.FinishLevel ();
+		GameManager.Instance.AddPoints (CurrentTimeBonus);
+
+		FloatingText.Show ( " Level Complete !", "CheckpointText", new CenteredTextPositioner (.2f));
+		yield return new WaitForSeconds(1f);
+
+		FloatingText.Show (string.Format ("{0} Pointss Biaatch !", GameManager.Instance.Points), "CheckpointText", new CenteredTextPositioner (.1f));
+		yield return new WaitForSeconds(5f);
+
+		if (string.IsNullOrEmpty (levelname))
+			Application.LoadLevel ("StartScreen");
+		else
+			Application.LoadLevel (levelname);
 	}
 
 	private IEnumerator KillPlayerCo(){
