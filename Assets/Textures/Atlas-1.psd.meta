@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 54f20f6c65f80ed4eb62507dba5b52d7
-timeCreated: 1443463913
+timeCreated: 1443770126
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -64,12 +64,12 @@ TextureImporter:
     - name: canon
       rect:
         serializedVersion: 2
-        x: 31
-        y: 894
-        width: 255
-        height: 70
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 32
+        y: 856
+        width: 213
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas-1_1
       rect:

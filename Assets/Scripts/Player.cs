@@ -19,6 +19,8 @@ public class Player : MonoBehaviour {
 	public AudioClip PlayerHitSound;
 	public AudioClip PlayerShootSound;
 	public AudioClip PlayerHealthSound;
+	public Animator Animator;
+
 
 
 
@@ -56,6 +58,9 @@ public class Player : MonoBehaviour {
 			_controller.SetHorizontalForce (0);
 		else
 			_controller.SetHorizontalForce (Mathf.Lerp (_controller.Velocity.x, normalizedHorizontalSpeed * MaxSpeed, Time.deltaTime * movementFactor)); //Lerping speed of the character
+
+		Animator.SetBool ("IsGrounded", _controller.State.IsGrounded);
+		Animator.SetFloat ("Speed", Mathf.Abs (_controller.Velocity.x) / MaxSpeed);
 
 
 
