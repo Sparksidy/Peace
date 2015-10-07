@@ -1,11 +1,11 @@
 fileFormatVersion: 2
 guid: 54f20f6c65f80ed4eb62507dba5b52d7
-timeCreated: 1443770126
+timeCreated: 1444228520
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: canon
-    21300002: Atlas-1_1
+    21300002: One side Grass
     21300004: Dirt Platform
     21300006: Grass
     21300008: Dirt Full
@@ -71,15 +71,15 @@ TextureImporter:
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Atlas-1_1
+    - name: One side Grass
       rect:
         serializedVersion: 2
         x: 319
-        y: 895
-        width: 297
-        height: 107
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        y: 916
+        width: 296
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Dirt Platform
       rect:

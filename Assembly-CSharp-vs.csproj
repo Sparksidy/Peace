@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\IFloatingTextPositioner.cs" />
      <Compile Include="Assets\Scripts\IPlayerRespawnListener.cs" />
      <Compile Include="Assets\Scripts\ITakeDamage.cs" />
+     <Compile Include="Assets\Scripts\IncreaseSpeed.cs" />
      <Compile Include="Assets\Scripts\InstaKill.cs" />
      <Compile Include="Assets\Scripts\JumpPlatform.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
