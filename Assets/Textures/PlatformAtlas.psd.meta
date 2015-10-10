@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: e7a8c46899d9c4840b067f02374db6ba
+timeCreated: 1444508340
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlatformAtlas_0
+    21300002: PlatformAtlas_1
+    21300004: StoneFull
+    21300006: Bricks Full
+    21300008: PlatformAtlas_4
+    21300010: PlatformAtlas_5
+    21300012: PlatformAtlas_6
+    21300014: PlatformAtlas_7
+    21300016: PlatformAtlas_8
+    21300018: PlatformAtlas_9
+    21300020: PlatformAtlas_10
+    21300022: PlatformAtlas_11
+    21300024: Stone Platform
+    21300026: PlatformAtlas_13
+    21300028: PlatformAtlas_14
+    21300030: PlatformAtlas_15
+    21300032: PlatformAtlas_16
+    21300034: PlatformAtlas_17
+    21300036: PlatformAtlas_18
+    21300038: PlatformAtlas_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlatformAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 339
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 339
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: StoneFull
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 339
+        width: 82
+        height: 82
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bricks Full
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 339
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 339
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 209
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 209
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 209
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 209
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 209
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 115
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 115
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Platform
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 115
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 115
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 115
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 45
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 45
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 45
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 43
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 45
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
