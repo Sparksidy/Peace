@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 54f20f6c65f80ed4eb62507dba5b52d7
-timeCreated: 1444228520
+timeCreated: 1444467576
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -88,8 +88,8 @@ TextureImporter:
         y: 888
         width: 168
         height: 92
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Grass
       rect:
