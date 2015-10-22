@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections;
 
 public class Player : MonoBehaviour,ITakeDamage {
@@ -98,6 +98,8 @@ public class Player : MonoBehaviour,ITakeDamage {
 		Health = MaxHealth;
 
 		transform.position = spawnPoint.position;
+
+		_controller._overrideParameters = null;
 
 
 	}

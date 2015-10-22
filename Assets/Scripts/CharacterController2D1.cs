@@ -29,13 +29,14 @@ public class CharacterController2D1 : MonoBehaviour {
 			} 
 	}
 	public GameObject _lastStandingOn;
+	public ControllerParameters _overrideParameters;
 
 
 	private Vector2 _velocity;
 	private Transform _transform;
 	private Vector3 _localScale;
 	private BoxCollider2D _boxCollider;
-	private ControllerParameters _overrideParameters;
+
 	private float _jumpIn;
 	private Vector3
 		_raycastTopLeft,

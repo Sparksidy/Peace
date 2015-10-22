@@ -44,7 +44,7 @@ public class SimpleEnemyAI : MonoBehaviour,ITakeDamage,IPlayerRespawnListener {
 
 
 	public void TakeDamage(int damage,GameObject instigator){
-		Instantiate (DestroyEffect);
+		Instantiate (DestroyEffect,transform.position,transform.rotation);
 		gameObject.SetActive(false);
 
 	}
