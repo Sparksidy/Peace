@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour,ITakeDamage {
 	 
 	private bool _isFacingRight;
 	private CharacterController2D1 _controller;
@@ -82,12 +82,16 @@ public class Player : MonoBehaviour {
 		Health = 0;
 
 
+
 		_controller.SetForce (new Vector2 (0, 10));
+
+
 	}
 	public void RespawnAt(Transform spawnPoint){
 		if (!_isFacingRight)
 			Flip ();
 		isDead = false;
+
 
 		GetComponent<Collider2D>().enabled = true;
 		_controller.HandleCollisions = true;
@@ -99,7 +103,7 @@ public class Player : MonoBehaviour {
 	}
 
 
-	public void TakeDamage(int damage){
+	public void TakeDamage(int damage,GameObject instigator){
 		AudioSource.PlayClipAtPoint (PlayerHitSound, transform.position);
 
 		FloatingText.Show (string.Format ("-{0}", damage), "PlayerTakeDamageText", new FromWorldPointTextPositioner (Camera.main, transform.position, 2f, 60));

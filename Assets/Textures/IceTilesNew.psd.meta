@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 01259d3041732e04c9fe61208aee4181
+timeCreated: 1445413957
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tile3Snow
+    21300002: Tile2Snow
+    21300004: Tile1Snow
+    21300006: TileBlockLeft
+    21300008: TileBlockMid
+    21300010: TileBlockRight
+    21300012: TileSnowLeft
+    21300014: IceTilesNew_7
+    21300016: IceTilesNew_8
+    21300018: IceTilesNew_9
+    21300020: TileSnowRight
+    21300022: IceTilesNew_11
+    21300024: WavySnowLeft
+    21300026: WavySnowMid
+    21300028: WavySnowRight
+    21300030: IceTilesNew_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tile3Snow
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 248
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tile2Snow
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 248
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tile1Snow
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 248
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TileBlockLeft
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 172
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TileBlockMid
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 172
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TileBlockRight
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 172
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TileSnowLeft
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceTilesNew_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceTilesNew_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 96
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceTilesNew_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 96
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TileSnowRight
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 96
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceTilesNew_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 20
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WavySnowLeft
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WavySnowMid
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 40
+        width: 74
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WavySnowRight
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 40
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceTilesNew_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 20
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

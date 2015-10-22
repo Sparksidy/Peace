@@ -80,6 +80,7 @@
      <Compile Include="Assets\Scripts\PlayerBounds.cs" />
      <Compile Include="Assets\Scripts\PointStar.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
+     <Compile Include="Assets\Scripts\ShowMessage.cs" />
      <Compile Include="Assets\Scripts\SimpleEnemyAI.cs" />
      <Compile Include="Assets\Scripts\SimpleProjectile.cs" />
      <Compile Include="Assets\Scripts\StartScreen.cs" />
