@@ -9,12 +9,16 @@ public class GameManager {
 	private static GameManager _instance;
 	public static GameManager Instance {get{return _instance ?? (_instance = new GameManager());}} // SingleTon Class
 
-	public int Points{ get; private set;}
+
+
+
+	public int Points{get; private set;}
+	public int Lives{ get; private set;}
 
 	//Sanity check
 	//Empty cTor: nobody other than Game Manager can instance itself. The only instantiation of game Manager is in this ctor itself,declaring it to be private makes sure that nobody has priveleges to instantiate it.
 	private GameManager(){
-		
+
 	}
 
 	public void Reset(){
@@ -26,4 +30,9 @@ public class GameManager {
 	public void AddPoints(int pointsToAdd){
 		Points += pointsToAdd;
 	}
+	public void ResetLives(int lives){
+		Lives = lives;
+
+	}
+
 }

@@ -20,7 +20,7 @@ public class Player : MonoBehaviour,ITakeDamage {
 	public AudioClip PlayerShootSound;
 	public AudioClip PlayerHealthSound;
 	public Animator Animator;
-
+	public int LivesOfPlayer = 3;
 
 
 
@@ -37,6 +37,8 @@ public class Player : MonoBehaviour,ITakeDamage {
 	public void Awake(){
 		// Collider2D collider = GetComponent<Collider2D>();
 
+		GameManager.Instance.ResetLives (LivesOfPlayer);
+
 		_controller = GetComponent<CharacterController2D1> ();
 		_isFacingRight = transform.localScale.x > 0;
 
@@ -50,6 +52,14 @@ public class Player : MonoBehaviour,ITakeDamage {
 
 		//if(!isDead)
 		HandleInput();
+
+		if (LivesOfPlayer <= 0) {
+			
+			Application.LoadLevel ("GameOverScreen");
+			LivesOfPlayer = 3;
+
+
+		}
 
 
 		var movementFactor = _controller.State.IsGrounded ? speedAccelerationOnGround : speedAccelerationInAir;
@@ -77,6 +87,10 @@ public class Player : MonoBehaviour,ITakeDamage {
 		_controller.HandleCollisions = false;
 
 		GetComponent<Collider2D>().enabled = false;
+
+
+		LivesOfPlayer--;
+		GameManager.Instance.ResetLives(LivesOfPlayer);
 
 		isDead = true;
 		Health = 0;

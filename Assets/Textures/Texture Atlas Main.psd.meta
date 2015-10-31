@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 319437597f4cb554ab585188ad7967ee
-timeCreated: 1444505044
+timeCreated: 1446286873
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,7 +11,7 @@ TextureImporter:
     21300008: Health New
     21300010: Water Trap
     21300012: Texture Atlas Main_6
-    21300014: Texture Atlas Main_7
+    21300014: Cannon
     21300016: Texture Atlas Main_8
     21300018: Texture Atlas Main_9
     21300020: Ice Top
@@ -142,15 +142,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Texture Atlas Main_7
+    - name: Cannon
       rect:
         serializedVersion: 2
         x: 1318
         y: 1692
         width: 310
         height: 229
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Texture Atlas Main_8
       rect:

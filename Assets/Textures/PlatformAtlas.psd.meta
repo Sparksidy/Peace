@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e7a8c46899d9c4840b067f02374db6ba
-timeCreated: 1444508340
+timeCreated: 1445864991
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,7 +12,7 @@ TextureImporter:
     21300010: PlatformAtlas_5
     21300012: PlatformAtlas_6
     21300014: PlatformAtlas_7
-    21300016: PlatformAtlas_8
+    21300016: SteelFull
     21300018: PlatformAtlas_9
     21300020: PlatformAtlas_10
     21300022: PlatformAtlas_11
@@ -22,7 +22,7 @@ TextureImporter:
     21300030: PlatformAtlas_15
     21300032: PlatformAtlas_16
     21300034: PlatformAtlas_17
-    21300036: PlatformAtlas_18
+    21300036: SteelPlatform
     21300038: PlatformAtlas_19
   serializedVersion: 2
   mipmaps:
@@ -149,7 +149,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PlatformAtlas_8
+    - name: SteelFull
       rect:
         serializedVersion: 2
         x: 359
@@ -249,7 +249,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PlatformAtlas_18
+    - name: SteelPlatform
       rect:
         serializedVersion: 2
         x: 359
